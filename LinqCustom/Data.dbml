@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DanhMucKH" Class="DataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-4546PVS;Initial Catalog=DanhMucKH;Integrated Security=True" SettingsObjectName="LinqCustom.Properties.Settings" SettingsPropertyName="DanhMucKHConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.dm_khachhang" Member="dm_khachhangs">
+    <Type Name="dm_khachhang">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="khachhang_loai" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="khachhang_ma" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="khachhang_mst" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="khachhang_ten" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="khachhang_ghichu" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="doanhnghiep_mst" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
